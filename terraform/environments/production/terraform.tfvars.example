@@ -1,0 +1,10 @@
+project              =
+credential_file_path =
+region               =
+env                  =
+service_name         =
+storage_class        =
+function_name        =
+runtime              =
+memory               =
+timeout              =

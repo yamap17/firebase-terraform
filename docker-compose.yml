@@ -1,0 +1,10 @@
+version: "3"
+services:
+  terraform-production:
+    build:
+      dockerfile: ./terraform/environments/production/Dockerfile
+    image: terraform:production
+    volumes:
+      - ./terraform/environments/production:/terraform/environments/production
+      - ./terraform/modules:/terraform/modules
+      - ./cloudFunctions:/cloudFunctions
