@@ -34,3 +34,5 @@ override.tf.json
 cloudFunctions/*.zip
 
 .DS_store
+
+**/node_modules/*

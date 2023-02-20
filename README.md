@@ -23,4 +23,8 @@ $ docker compose run --rm terraform-production
 
 ```
 $ terraform plan
+
+$ terraform apply -auto-approve
+
+$ terraform destroy
 ```

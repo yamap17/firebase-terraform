@@ -1,5 +1,3 @@
-function main() {
-  console.log("hello");
-  console.log(`${process.env.SAMPLE_TEXT}`);
-}
-module.exports.main = main;
+exports.main = async (req, res) => {
+  res.status(200).send(`hello world ${process.env.SAMPLE_TEXT}.`);
+};
